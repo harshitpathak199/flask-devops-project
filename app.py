@@ -7,7 +7,7 @@ def home():
     return jsonify({
         "message": "Hello from Flask on EKS!",
         "status": "running",
-        "version": "2.0"
+        "version": "3.0"
     })
 
 @app.route('/health')
